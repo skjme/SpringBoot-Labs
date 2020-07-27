@@ -9,7 +9,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/seata_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password:
+    password: root
 
 # Seata 配置项，对应 SeataProperties 类
 seata:
