@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: demo-application
+
+  cloud:
+    nacos:
+      config: # 启动配置管理
+        server-addr: 127.0.0.1:8848
+
+      discovery:   #  启动服务发现nacos
+        server-addr: 127.0.0.1:8848
+
